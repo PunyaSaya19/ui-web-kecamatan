@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sambutan </title>
+    <title>Layanan</title>
     <!-- Font Awesome -->
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="assets/css/navbar.css">
 
     <!-- specific css -->
-    <link rel="stylesheet" href="assets/css/sambutan.css">
+    <link rel="stylesheet" href="assets/css/layanan.css">
   </head>
   <body>
 
@@ -101,29 +101,94 @@
 
     <!-- judul -->
     <section id="judul" class="text-center d-flex justify-content-center align-items-center">
-        <h2 class="h1">Sambutan Kepala Camat</h2>
+        <h2 class="h1">Layanan</h2>
     </section>
 
     <section id="content" class="mt-5 mb-5">
         <div class="container">
-            <div class="row ">
-              <div class="col-md-4 col-sm-12 text-center ">
-                <img src="assets/img/pages/sambutan.jpeg" alt="" class="foto-camat shadow rounded mb-3">
+            <div class="row">
+              <div class="col-12 mb-3">
+                <h3 class="content-title text-center">
+                    Jenis dan Macam Pelayanan yang Diberikan Pemerintah Kecamatan Bandung 
+                </h3>
               </div>
-              <div class="col-md-8 col-sm-12 ">
-                <div class="card rounded shadow-none border">
-                  <div class="card-body">
-                    <h5 class="card-title">Bpk. H Budi Santoso SE.</h5>
-                    <hr>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dolorum tenetur fuga voluptate dolor illo delectus distinctio cumque. Consequuntur quod aut repudiandae ad eius et veritatis doloribus hic, optio quibusdam, iure voluptate est laboriosam minima atque a assumenda. Nihil voluptatem fugiat provident quas recusandae soluta vel magni autem qui veniam, tenetur commodi. Maxime nemo commodi impedit eligendi quasi ducimus blanditiis doloribus omnis, mollitia, voluptates, tempore sapiente fugiat id quas nam? Placeat consectetur dolor amet esse..</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque aliquam esse laboriosam, quibusdam tempore placeat optio. Numquam qui id cumque fuga provident, nesciunt pariatur culpa rerum aut architecto nam amet facere temporibus sunt labore ducimus in, ipsa corrupti cum molestias! Sapiente, nisi. Odio alias officia libero doloribus eaque pariatur repudiandae!</p>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et modi quam doloremque iusto porro cum voluptate asperiores quo eligendi iste, natus itaque quos est ut quas ab exercitationem similique expedita quaerat vitae molestiae veniam consequatur earum deleniti? Distinctio quisquam reprehenderit illum voluptatibus, doloremque reiciendis labore doloribus dolor assumenda cum magnam aspernatur sapiente quo aut similique dolorum? Sequi dolorem deserunt eaque?</p>
+              
+              <!-- macam-macam layanan -->
+              <div class="col-md-4 my-2">
+                  <div class="card bg-info cursor-pointer" data-mdb-toggle="modal" data-mdb-target="#modalLayanan-1">
+                    <div class="card-body pb-1 pt-3">
+                        <h4 class="text-center text-white fw-bold">
+                            KTP
+                        </h4>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-md-4 my-2">
+                <div class="card bg-info cursor-pointer" data-mdb-toggle="modal" data-mdb-target="#modalLayanan-1">
+                  <div class="card-body pb-1 pt-3">
+                      <h4 class="text-center text-white fw-bold">
+                          KK
+                      </h4>
                   </div>
                 </div>
-              </div>
+            </div>
+            <div class="col-md-4 my-2">
+                <div class="card bg-info cursor-pointer" data-mdb-toggle="modal" data-mdb-target="#modalLayanan-1">
+                  <div class="card-body pb-1 pt-3">
+                      <h4 class="text-center text-white fw-bold">
+                          SIM
+                      </h4>
+                  </div>
+                </div>
+            </div>
+            <div class="col-md-4 my-2">
+                <div class="card bg-info cursor-pointer" data-mdb-toggle="modal" data-mdb-target="#modalLayanan-1">
+                  <div class="card-body pb-1 pt-3">
+                      <h4 class="text-center text-white fw-bold">
+                          KIA
+                      </h4>
+                  </div>
+                </div>
+            </div>
+            <div class="col-md-4 my-2">
+                <div class="card bg-info cursor-pointer" data-mdb-toggle="modal" data-mdb-target="#modalLayanan-1">
+                  <div class="card-body pb-1 pt-3">
+                      <h4 class="text-center text-white fw-bold">
+                          Akte Kelahiran
+                      </h4>
+                  </div>
+                </div>
+            </div>
+              
             </div>
         </div>
     </section>
+
+    <!-- Modal -->
+<div class="modal fade" id="modalLayanan-1" tabindex="-1" aria-labelledby="modalLayanan-1Label" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalLayanan-1Label">Syarat Pembuatan KTP</h5>
+        </div>
+        <div class="modal-body">
+            <ol>
+                <li>Lorem, ipsum dolor.</li>
+                <li>Lorem, ipsum.</li>
+                <li>Lorem ipsum dolor sit amet consectetur.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem, ipsum dolor.</li>
+                <li>Lorem, ipsum.</li>
+                <li>Lorem ipsum dolor sit amet consectetur.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+            </ol>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+</div>
 
 
     <!-- Footer -->

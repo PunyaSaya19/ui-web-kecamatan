@@ -1,0 +1,14 @@
+.cursor-pointer {
+    cursor: pointer;
+}
+h3.content-title {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* mobile mode */
+@media (max-width: 576px) {
+    h3.content-title {
+        font-size: 15px;
+    }
+}
