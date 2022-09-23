@@ -1,0 +1,9 @@
+.navbar .nav-link {
+    color: #fff !important;
+}
+
+@media (max-width: 576px) {
+    nav ul.list-inline {
+        display: none;
+    }
+}
