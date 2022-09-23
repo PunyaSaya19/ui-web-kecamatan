@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aparatur Kecamatan</title>
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- mdb -->
+    <link rel="stylesheet" href="assets/mdb/css/mdb.min.css" />
+    <link rel="stylesheet" href="assets/css/general.css">
+    <link rel="stylesheet" href="assets/css/navbar.css">
+
+    <!-- specific css -->
+    <link rel="stylesheet" href="assets/css/aparatur.css">
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light d-lg-block">
+      <div class="container">
+        <!-- Navbar brand -->
+        <a class="navbar-brand nav-link" href="index.html">
+          <img src="assets/img/pages/logo.png" alt="logo" class="img-navbar-logo">
+        </a>
+
+        <!-- navbar toggler -->
+        <button class="navbar-toggler" type="button" data-mdb-toggle="collapse" data-mdb-target="#navbarExample01"
+          aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <!-- navbar menus -->
+        <div class="collapse navbar-collapse" id="navbarExample01">
+          <!-- plan menu -->
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="layanan.html">Layanan</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navInfo" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                Info
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navInfo">
+                <li><a class="dropdown-item" href="sambutan.html">Sambutan</a></li>
+                <li><a class="dropdown-item" href="visi_misi.html">Visi Misi</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navInfo" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                Data
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navInfo">
+                <li><a class="dropdown-item" href="aparatur.html">Aparatur Kecamatan</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navInfo" role="button" data-mdb-toggle="dropdown" aria-expanded="false">
+                Profil
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navInfo">
+                <li><a class="dropdown-item" href="struktur.html">Struktur Organisasi</a></li>
+                <li><a class="dropdown-item" href="login.html">Login</a></li>
+              </ul>
+            </li>
+            
+          </ul>
+
+          <!-- icon menu -->
+          <ul class="navbar-nav list-inline">
+            <li class="">
+              <a class="nav-link" href="https://www.youtube.com/channel/UC5CF7mLQZhvx8O5GODZAhdA" rel="nofollow"
+                target="_blank">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </li>
+            <li class="">
+              <a class="nav-link" href="https://www.facebook.com/mdbootstrap" rel="nofollow" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://twitter.com/MDBootstrap" rel="nofollow" target="_blank">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- judul -->
+    <section id="judul" class="text-center d-flex justify-content-center align-items-center">
+        <h2 class="h1">Profil Aparatur Kecamatan</h2>
+    </section>
+
+    <section id="content" class="mt-5 mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 my-2">
+                    <div class="card p-3 py-4">
+                        <div class="text-center">
+                            <img src="https://i.imgur.com/bDLhJiP.jpg" width="100" class="rounded-circle">
+                        </div>
+                        <div class="text-center mt-3">
+                            <h5 class="mt-2 mb-0">Bambang Saptoaji SI</h5>
+                            <span>Ketua Camat</span>
+                            
+                             <ul class="social-list">
+                                <li>
+                                    <a href="">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                            
+                            <div class="buttons">
+                                <button class="btn btn-outline-primary px-4" data-mdb-toggle="modal" data-mdb-target="#modalDetail-1">Detail</button>
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 my-2">
+                    <div class="card p-3 py-4">
+                        <div class="text-center">
+                            <img src="https://i.imgur.com/bDLhJiP.jpg" width="100" class="rounded-circle">
+                        </div>
+                        <div class="text-center mt-3">
+                            <h5 class="mt-2 mb-0">Bambang Saptoaji SI</h5>
+                            <span>Ketua Camat</span>
+                            
+                             <ul class="social-list">
+                                <li>
+                                    <a href="">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                            
+                            <div class="buttons">
+                                <button class="btn btn-outline-primary px-4" data-mdb-toggle="modal" data-mdb-target="#modalDetail-1">Detail</button>
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 my-2">
+                    <div class="card p-3 py-4">
+                        <div class="text-center">
+                            <img src="https://i.imgur.com/bDLhJiP.jpg" width="100" class="rounded-circle">
+                        </div>
+                        <div class="text-center mt-3">
+                            <h5 class="mt-2 mb-0">Bambang Saptoaji SI</h5>
+                            <span>Ketua Camat</span>
+                            
+                             <ul class="social-list">
+                                <li>
+                                    <a href="">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                            
+                            <div class="buttons">
+                                <button class="btn btn-outline-primary px-4" data-mdb-toggle="modal" data-mdb-target="#modalDetail-1">Detail</button>
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 my-2">
+                    <div class="card p-3 py-4">
+                        <div class="text-center">
+                            <img src="https://i.imgur.com/bDLhJiP.jpg" width="100" class="rounded-circle">
+                        </div>
+                        <div class="text-center mt-3">
+                            <h5 class="mt-2 mb-0">Bambang Saptoaji SI</h5>
+                            <span>Ketua Camat</span>
+                            
+                             <ul class="social-list">
+                                <li>
+                                    <a href="">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                            
+                            <div class="buttons">
+                                <button class="btn btn-outline-primary px-4" data-mdb-toggle="modal" data-mdb-target="#modalDetail-1">Detail</button>
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 my-2">
+                    <div class="card p-3 py-4">
+                        <div class="text-center">
+                            <img src="https://i.imgur.com/bDLhJiP.jpg" width="100" class="rounded-circle">
+                        </div>
+                        <div class="text-center mt-3">
+                            <h5 class="mt-2 mb-0">Bambang Saptoaji SI</h5>
+                            <span>Ketua Camat</span>
+                            
+                             <ul class="social-list">
+                                <li>
+                                    <a href="">
+                                        <i class="fa-brands fa-facebook-f"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="fa-brands fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <i class="fa-brands fa-twitter"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                            
+                            <div class="buttons">
+                                <button class="btn btn-outline-primary px-4" data-mdb-toggle="modal" data-mdb-target="#modalDetail-1">Detail</button>
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+<div class="modal fade" id="modalDetail-1" tabindex="-1" aria-labelledby="modalDetail-1Label" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalDetail-1Label">Bambang Saptoaji</h5>
+        </div>
+        <div class="modal-body">
+            <h6>Riwayat Pendidikan : </h6>
+            <ul>
+                <li>Universitas Gajah Mada (2015-2019)</li>
+                <li>SMA 1 BANDUNG (2012-2015)</li>
+                <li>SMP 5 BANDUNG (2009-2012)</li>
+                <li>SD 9 BANDUNG (2003-2009)</li>
+            </ul>
+            <h6>Riwayat Jabatan : </h6>
+            <ol>
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Lorem, ipsum dolor.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem, ipsum.</li>
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Lorem, ipsum dolor.</li>
+                <li>Lorem ipsum dolor sit amet.</li>
+                <li>Lorem, ipsum.</li>
+            </ol>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-dark text-muted pt-2">
+
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-4 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                Kecamatan Bandung
+              </h6>
+              <p>
+                Here you can use rows and columns to organize your footer content. Lorem ipsum
+                dolor sit amet, consectetur adipisicing elit.
+              </p>
+            </div>
+
+            <div class="col-md-5"></div>
+
+            <!-- Grid column -->
+            <div class="col-md-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Kontak</h6>
+              <p><i class="fa-sharp fa-solid fa-location-dot me-3"></i>Kapanewon Bandung
+                Jl. Bandung Barat KM.7</p>
+              <p>
+                <i class="fas fa-envelope me-3"></i>
+                info@example.com
+              </p>
+              <p><i class="fas fa-phone me-3"></i> 0865-0987-0987</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Copyright -->
+      <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.25);">
+        © 2022 Copyright By <b>PunyaSaya</b> <br> With
+        <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a> Template
+      </div>
+    </footer>
+
+    <!-- mdb -->
+    <script src="assets/mdb/js/mdb.min.js"></script>
+  </body>
+</html>
