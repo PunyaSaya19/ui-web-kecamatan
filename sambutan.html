@@ -11,19 +11,20 @@
       rel="stylesheet"
     />
     <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
     <!-- mdb -->
     <link rel="stylesheet" href="assets/mdb/css/mdb.min.css" />
     <link rel="stylesheet" href="assets/css/general.css">
     <link rel="stylesheet" href="assets/css/navbar.css">
+
+    <!-- specific css -->
+    <link rel="stylesheet" href="assets/css/sambutan.css">
   </head>
   <body>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark d-lg-block" style="z-index: 2000;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light d-lg-block" style="z-index: 2000;">
       <div class="container">
         <!-- Navbar brand -->
         <a class="navbar-brand nav-link" target="_blank" href="https://mdbootstrap.com/docs/standard/">
@@ -99,29 +100,77 @@
     </nav>
     <!-- Navbar -->
 
-    <!-- Breadcrumbs -->
-    <section id="breadcrumbs" class="mt-3">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
-                  <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb">
-                      <li class="breadcrumb-item"><a href="#">Home</a></li>
-                      <li class="breadcrumb-item"><a href="#">Library</a></li>
-                      <li class="breadcrumb-item active" aria-current="page"><a href="#">Data</a></li>
-                    </ol>
-                  </nav>
-                </div>
-              </nav>
-        </div>
+    <!-- judul -->
+    <section id="judul" class="text-center d-flex justify-content-center align-items-center">
+        <h2 class="h1">Sambutan Kepala Camat</h2>
     </section>
 
     <section id="sambutan">
         <div class="container">
-
+            <div class="row mt-5 mb-5">
+              <div class="col-md-4 col-sm-12 text-center ">
+                <img src="assets/img/pages/sambutan.jpeg" alt="" class="foto-camat shadow rounded mb-3">
+              </div>
+              <div class="col-md-8 col-sm-12 ">
+                <div class="card rounded shadow-none border">
+                  <div class="card-body">
+                    <h5 class="card-title">Bpk. H Budi Santoso SE.</h5>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dolorum tenetur fuga voluptate dolor illo delectus distinctio cumque. Consequuntur quod aut repudiandae ad eius et veritatis doloribus hic, optio quibusdam, iure voluptate est laboriosam minima atque a assumenda. Nihil voluptatem fugiat provident quas recusandae soluta vel magni autem qui veniam, tenetur commodi. Maxime nemo commodi impedit eligendi quasi ducimus blanditiis doloribus omnis, mollitia, voluptates, tempore sapiente fugiat id quas nam? Placeat consectetur dolor amet esse..</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque aliquam esse laboriosam, quibusdam tempore placeat optio. Numquam qui id cumque fuga provident, nesciunt pariatur culpa rerum aut architecto nam amet facere temporibus sunt labore ducimus in, ipsa corrupti cum molestias! Sapiente, nisi. Odio alias officia libero doloribus eaque pariatur repudiandae!</p>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et modi quam doloremque iusto porro cum voluptate asperiores quo eligendi iste, natus itaque quos est ut quas ab exercitationem similique expedita quaerat vitae molestiae veniam consequatur earum deleniti? Distinctio quisquam reprehenderit illum voluptatibus, doloremque reiciendis labore doloribus dolor assumenda cum magnam aspernatur sapiente quo aut similique dolorum? Sequi dolorem deserunt eaque?</p>
+                  </div>
+                </div>
+              </div>
+            </div>
         </div>
     </section>
 
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-dark text-muted pt-2">
+
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-4 mx-auto mb-4">
+              <!-- Content -->
+              <h6 class="text-uppercase fw-bold mb-4">
+                Kecamatan Bandung
+              </h6>
+              <p>
+                Here you can use rows and columns to organize your footer content. Lorem ipsum
+                dolor sit amet, consectetur adipisicing elit.
+              </p>
+            </div>
+
+            <div class="col-md-5"></div>
+
+            <!-- Grid column -->
+            <div class="col-md-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h6 class="text-uppercase fw-bold mb-4">Kontak</h6>
+              <p><i class="fa-sharp fa-solid fa-location-dot me-3"></i>Kapanewon Bandung
+                Jl. Bandung Barat KM.7</p>
+              <p>
+                <i class="fas fa-envelope me-3"></i>
+                info@example.com
+              </p>
+              <p><i class="fas fa-phone me-3"></i> 0865-0987-0987</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Copyright -->
+      <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.25);">
+        © 2022 Copyright By <b>PunyaSaya</b> <br> With
+        <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a> Template
+      </div>
+    </footer>
 
     <!-- mdb -->
     <script src="assets/mdb/js/mdb.min.js"></script>

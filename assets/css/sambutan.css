@@ -1,0 +1,12 @@
+img.foto-camat {
+    width: 400px;
+    height: 500px;
+}
+
+/* mobile mode */
+@media (max-width: 576px) {
+    img.foto-camat {
+        width: 200px;
+        height: 250px;
+    }
+}

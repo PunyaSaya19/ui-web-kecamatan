@@ -1,3 +1,22 @@
+* {
+    font-family: 'Nunito';
+}
 body {
-    background-color: #EDE7F6;
+    background-color: #fff;
+}
+
+section#judul {
+    background-color: #eff6ff;
+    min-height: 300px;
+}
+#judul h2 {
+    font-weight: 700;
+}
+
+
+/* mobile mode */
+@media (max-width: 576px) {
+    section#judul {
+        min-height: 200px;
+    }
 }
