@@ -5,6 +5,13 @@ body {
     background-color: #fff;
 }
 
+/* navbar */
+img.img-navbar-logo {
+    width: 40px;
+    height: 40px;
+}
+
+/* section judul */
 section#judul {
     background-color: #eff6ff;
     min-height: 300px;
