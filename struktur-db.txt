@@ -1,0 +1,53 @@
+sys_basic 
+    - nama_kecamatan
+    - logo_kecamatan
+    - desc_footer
+sys_kontak 
+    - lokasi
+    - email
+    - no_telp
+    - yt_link
+    - fb_link
+    - tweet_link
+page_home 
+    - id
+    - gambar
+page_struktur
+    - gambar_struktur
+page_sambutan 
+    - nama_camat 
+    - foto_camat
+    - isi_sambutan (summernote)
+page_visi_misi
+    - visi
+    - misi
+layanan
+    - id
+    - nama_layanan 
+    - syarat_layanan (summernote)
+aparatur
+    - id
+    - foto
+    - nama
+    - jabatan
+    - fb
+    - ig
+    - tweet
+riwayat_pendidikan 
+    - id    
+    - id_aparatur
+    - nama_sekolah
+    - thn_mulai
+    - thn_selesai
+riwayat_jabatan 
+    - id    
+    - id_aparatur
+    - nama_jabatan
+karyawan
+    - id
+    - nip (unique)
+    - nama
+    - jabatan
+    - no_telp
+    - status (PNS/NON PNS)
+    - keterangan
