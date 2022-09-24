@@ -1,3 +1,4 @@
+- size image Logo = 200 x 200px
 - size image sambutan camat = 400 x 500px
 - size image struktur organisasi = 1204 x 600px
 - size image profile aparatur kecamatan = 400 x 400px
